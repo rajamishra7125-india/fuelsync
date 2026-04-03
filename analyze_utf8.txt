@@ -1,0 +1,8 @@
+﻿Analyzing fuelsync...                                           
+
+   info - The import of 'dart:typed_data' is unnecessary because all of the used elements are also provided by the import of 'package:flutter/foundation.dart' - lib\core\services\supabase_service.dart:4:8 - unnecessary_import
+  error - The returned type 'Object' isn't returnable from a 'bool' function, as required by the closure's context - lib\core\services\supabase_service.dart:446:16 - return_of_invalid_type_from_closure
+   info - Don't invoke 'print' in production code - lib\data\repositories\fuel_sale_repository.dart:62:9 - avoid_print
+   info - 'value' is deprecated and shouldn't be used. Use initialValue instead. This will set the initial value for the form field. This feature was deprecated after v3.33.0-1.0.pre - lib\features\maintenance\maintenance_screen.dart:257:15 - deprecated_member_use
+warning - Unused import: 'package:flutter/foundation.dart' - lib\features\reconciliation\services\reconciliation_service.dart:1:8 - unused_import
+
